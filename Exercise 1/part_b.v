@@ -1,5 +1,4 @@
 module part_b (a, b, y);
-
 	input [7:0]a; 
 	input [3:0]b;
 	output [7:0]y;
