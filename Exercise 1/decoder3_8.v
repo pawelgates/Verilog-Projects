@@ -10,5 +10,4 @@ module decoder3_8 (a, b, c, D);
 	assign D[5] = a & ~b & c;
 	assign D[6] = a & b & ~c;
 	assign D[7] = a & b & c;
-	
 endmodule 
