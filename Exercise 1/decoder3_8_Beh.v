@@ -1,5 +1,4 @@
 module decoder3_8_Beh (a, b, c, D_BEH);
-	
 	input a, b, c;
 	output [7:0]D_BEH;
 	reg [7:0]D_BEH;
@@ -8,8 +7,7 @@ module decoder3_8_Beh (a, b, c, D_BEH);
 	assign in = {a, b, c};
 	
 	always @(a or b or c) 
-		begin
-			
+		begin			
 			case(in)
 				3'd0 : D_BEH = 8'd1;
 				3'd1 : D_BEH = 8'd2;
