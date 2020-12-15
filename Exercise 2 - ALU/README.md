@@ -6,5 +6,5 @@
 
 #### <ins>RTL</ins>:
 ![alt text](https://github.com/pawelgates/Verilog-Projects/blob/main/Exercise%202%20-%20ALU/pics/RTL.png)
-#### <ins>Modelsim Simulation simulation:</ins>
+#### <ins>Modelsim Simulation:</ins>
 ![alt text](https://github.com/pawelgates/Verilog-Projects/blob/main/Exercise%202%20-%20ALU/pics/TB_Waveform.png)
