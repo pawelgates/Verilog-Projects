@@ -16,9 +16,9 @@ module alu_1bit(invA, A, enA, B, enB, Cin, f1, f0, Cout, out);
 	always @(*) begin
 		case(d)
 			4'b0001: out = out_logic[0];
-			4'b0010:	out = out_logic[1];
-			4'b0100:	out = out_logic[2];
-			4'b1000:	out = sum;
+			4'b0010: out = out_logic[1];
+			4'b0100: out = out_logic[2];
+			4'b1000: out = sum;
 			default: out = 4'bxxxx;
 		endcase
 	end
